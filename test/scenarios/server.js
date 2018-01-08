@@ -1,4 +1,4 @@
-var TestRPC = require("ganache-cli");
+var TestRPC = require("@shyftnetwork/shyft_ganache-cli");
 
 var server = null;
 
