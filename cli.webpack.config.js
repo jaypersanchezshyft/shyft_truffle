@@ -25,6 +25,7 @@ module.exports = {
     path: outputDir,
     filename: '[name].bundled.js'
   },
+  devtool: 'source-map',
   module: {
     rules: [
       { test: /\.js$/, use: "shebang-loader" }
@@ -64,7 +65,7 @@ module.exports = {
 
     // Put the shebang back on.
     new webpack.BannerPlugin({banner: '#!/usr/bin/env node\n', raw: true}),
-    
+
     // `truffle test`
     new CopyWebpackPlugin([
       { from: path.join(__dirname, "node_modules", "@shyftnetwork/shyft_truffle-core", "lib", "testing", "Assert.sol") },
