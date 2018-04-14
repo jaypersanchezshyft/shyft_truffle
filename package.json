@@ -1,8 +1,8 @@
 {
-  "name": "truffle",
-  "namespace": "consensys",
+  "name": "shyft_truffle",
+  "namespace": "shyft",
   "version": "4.0.4",
-  "description": "Truffle - Simple development framework for Ethereum",
+  "description": "Shyft Truffle extension framework for Ethereum",
   "dependencies": {
     "mocha": "^3.4.2",
     "original-require": "^1.0.1",
@@ -37,18 +37,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trufflesuite/truffle.git"
+    "url": "https://github.com/ShyftNetwork/truffle.git"
   },
-  "homepage": "https://github.com/trufflesuite/truffle/",
+  "homepage": "https://github.com/ShyftNetwork/truffle/",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/ShyftNetwork/truffle/issues"
   },
-  "author": "consensys.net",
+  "author": "Shyft Network",
   "authors": [
     {
-      "name": "Tim Coulter",
-      "email": "tim@timothyjcoulter.com",
-      "url": "https://github.com/tcoulter"
+      "name": "Shyft Core Team",
+      "email": "jayper@shyft.network",
+      "url": "http://shyft.network"
     }
   ]
 }
